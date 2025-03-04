@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'views/splash/splash_screen.dart';
 import 'views/home/home_screen.dart';
 import 'views/user/user_screen.dart';
@@ -7,7 +8,8 @@ import 'widgets/custom_app_bar.dart';
 import 'widgets/bottom_navigation_bar.dart';
 import 'core/theme.dart';
 
-void main() {
+void main() async {
+  // await dotenv.load();
   runApp(MyApp());
 }
 

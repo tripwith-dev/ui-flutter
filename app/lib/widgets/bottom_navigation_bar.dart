@@ -27,6 +27,8 @@ class CustomBottomNavigationBar extends StatelessWidget {
         ),
       ],
       onTap: onTap,
+      selectedItemColor: Color(0xFF020403),  // 활성화된 아이템 색상
+      unselectedItemColor: Color(0xFF888888),  // 비활성화된 아이템 색상
     );
   }
 }
